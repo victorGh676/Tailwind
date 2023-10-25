@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Ejemplo 2 de Sitio Web con Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100"> 
+    <header id="encabezado" class="bg-blue-500 py-4">
+        <div id="contenedor" class="container mx-auto">
+            <h1 id="titulo" class="text-2xl text-white">Nuestros Productos</h1>
+        </div>
+    </header>
+
+    <main id="contenido" class="container mx-auto p-4">
+        <h2 id="subtitulo" class="text-3xl font-bold mt-4">Productos Disponibles</h2>
+        <p id="descripcion" class="text-gray-700">Aquí puedes encontrar nuestros productos.</p>
+        
+        <div class="mt-8 flex">
+            <div class="w-full p-4">
+                <div class="bg-white rounded shadow-md transition duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-semibold ml-4">Samsung A14</h3>
+                    <p class="text-gray-600 ml-4 mt-2">
+                        <strong>Pantalla:</strong> 6.6", 1080 x 2408 pixels<br>
+                        <strong>Procesador:</strong> Exynos 1330 2.4GHz / Dimensity 700 2.2GHz<br>
+                        <strong>RAM:</strong> 4GB/6GB/8GB<br>
+                        <strong>Almacenamiento:</strong> 64GB/128GB<br>
+                        <strong>Cámara:</strong> Triple, 50MP+2MP+2MP<br>
+                        <strong>Batería:</strong> 5000 mAh
+                    </p>
+                    <img src="Imagenes/Producto 1 - A14.png" alt="">
+                    <p class="text-blue-500 mt-2">Precio: $179.99</p>
+                </div>
+            </div>
+            
+            <div class="w-full p-4">
+                <div class="bg-white rounded shadow-md transition duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-semibold ml-4">Samsung A50</h3>
+                    <p class="text-gray-600 ml-4 mt-2">
+                        <strong>Pantalla:</strong> 6.4", 1080 x 2340 pixels<br>
+                        <strong>Procesador:</strong> Exynos 9610 2.3GHz<br>
+                        <strong>RAM:</strong> 4GB/6GB<br>
+                        <strong>Almacenamiento:</strong> 64GB/128GB<br>
+                        <strong>Cámara:</strong> Triple, 25MP+5MP+8MP<br>
+                        <strong>Batería:</strong> 4000 mAh
+                    </p>
+                    <img src="Imagenes/Producto 2 - A50.png" alt="">
+                    <p class="text-blue-500 mt-2">Precio: $319.99</p>
+                </div>
+            </div>
+
+            <div class="w-full p-4">
+                <div class="bg-white rounded shadow-md transition duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-semibold ml-4">Samsung A71</h3>
+                    <p class="text-gray-600 ml-4 mt-2">
+                        <strong>Pantalla:</strong> 6.7", 1080 x 2400 pixels<br>
+                        <strong>Procesador:</strong> Snapdragon 730 2.2GHz<br>
+                        <strong>RAM:</strong> 6GB/8GB<br>
+                        <strong>Almacenamiento:</strong> 128GB<br>
+                        <strong>Cámara:</strong> Cuádruple, 64MP+12MP+5MP+5MP<br>
+                        <strong>Batería:</strong> 4500 mAh
+                    </p>
+                    <img src="Imagenes/Producto 3 - A71.png" alt="">
+                    <p class="text-blue-500 mt-2">Precio: $423.99</p>
+                </div>
+            </div>
+        </div>
+        
+        <a href="Ejemplo_principal.html" class="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+            Regresar a Inicio
+        </a>
+    </main>
+</body>
+</html>
